@@ -1,0 +1,14 @@
+Data members 
+
+	char* head ;		// stores the number as char array
+	bool neg;			// denotes the sign of the number  
+	int num_length ;	// stores the length of the number
+	int buff_length ;	// stores the length of the memory block
+
+Constructor 
+
+	NUM()		// default constructor
+	NUM( NUM& ) // copy constructor
+	NUM( NUM&& ) // move constructor
+	NUM( const char* )  // from c-string
+	
